@@ -1,0 +1,29 @@
+.pdPhoto{
+  padding: 5px 0;
+}
+.margin-photo{
+  margin-top: 15px!important;
+}
+
+.panel-body{
+  border-bottom: none!important;
+}
+.panel-heading{
+  background-color: #303030!important;
+  .panel-title{
+    color:#009670;
+    font-size: 23px;
+    font-weight: bold;
+  }
+}
+.panel-body>p,.panel-body>p>ul>li{
+  color:#333333;
+  font-size: 14px;
+  line-height: 1;
+  font-weight: bold;
+  font-style: italic;
+  font-family: cursive;
+}
+.pd-mobile-photo{
+  padding: 6px 10px;
+}

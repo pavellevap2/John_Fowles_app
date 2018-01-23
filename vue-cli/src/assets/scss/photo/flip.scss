@@ -1,0 +1,39 @@
+@import "../shared/header";
+.flip-container {
+  position: relative;
+  margin: 10px auto;
+  height: 400px;
+  width: 100%;
+  border:0.2px solid $dark;
+  z-index: 1;
+}
+.flip-container {
+  perspective: 1000px;
+}
+.card {
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+  transition: all 1s linear;
+}
+.flip-container:hover >.card {
+  transform: rotateY(180deg);
+}
+.face {
+  position: absolute;
+  width: 100%;
+  height: 400px;
+  backface-visibility: hidden;
+  img{
+    width: 100%;
+    height: 400px;
+  }
+}
+.face.back {
+  display: block;
+  transform: rotateY(180deg);
+  box-sizing: border-box;
+  color: black;
+  text-align: center;
+  background-color: #ffffff;
+}

@@ -1,0 +1,40 @@
+@import "../shared/header";
+.background-footer{
+  background-color: $dark;
+
+}
+.pdfooter{
+  padding-top: 4px;
+}
+.img-footer{
+  height: 30px;
+  width: 30px;
+}
+.text-footer{
+  line-height: 1;
+  font-size: 13px;
+  color:darkgray;
+  opacity: 0.4;
+  font-style: italic;
+  margin-top: -4px;
+}
+.brand-style-footer{
+@extend .brand-style;
+font-size: 25px!important;
+}
+
+/*Мобильная версия */
+.mobile-img-footer{
+  height: 25px;
+  width: 25px;
+}
+.mobile-brand-style-footer{
+  @extend .brand-style;
+  font-size: 17px!important;
+}
+.mobile-text-footer{
+  @extend .text-footer;
+  font-size: 5px;
+  white-space: nowrap;
+}
+

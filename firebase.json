@@ -1,0 +1,10 @@
+{
+  "hosting": {
+    "public": "./vue-cli",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}

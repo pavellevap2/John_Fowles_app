@@ -1,0 +1,39 @@
+@import "../biography/content";
+@import "../shared/header";
+.pdAbout{
+  padding: 15px 0;
+}
+.pdGrid{
+  padding: 20px 0;
+}
+.title-about{
+  @extend .title-bio;
+}
+.text-about{
+  @extend .text-bio;
+}
+.pdSpecialAbout{
+  padding: 10px 0;
+  border-top: 1px solid rgba(darkgray,0.5);
+}
+.pdbt50{
+  padding-bottom: 50px;
+}
+.btn-about{
+  padding: 5px 20px;
+  color:#ffffff;
+  background-color: $dark;
+  font-size: 25px;
+  font-style: italic;
+  box-shadow:1px 1px 1px 1px black;
+  margin-bottom: 50px;
+}
+.about-email{
+  @extend .text-bio;
+  padding: 0;
+  text-indent: 0;
+}
+.izumrudLine{
+  @extend .redLine;
+  color:$izumrud;
+}

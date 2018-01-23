@@ -1,0 +1,50 @@
+
+$dark:#303030;
+$white:white;
+$izumrud:#009670;
+.navbar-default{
+  background: $dark;
+  border:1px solid $dark;
+  padding: 7px 0;
+  border-radius: 1px;
+}
+
+.header-list>a,.dropdown-toggle{
+  font-size:20px;
+  color: $white;
+  font-weight: 900;
+  background-color: $dark;
+  &:hover{
+    color: $white !important;
+    background-color: $dark;
+  }
+}
+.dropdown-toggle:hover{
+  color:darkgray;
+}
+.dropdown-links{
+  font-size: 18px;
+  background-color: $dark;
+  color:darkgray!important;
+  font-weight: 700;
+  &:hover{
+    background-color: $dark!important;
+    color:$white;
+  }
+}
+
+.brand-style{
+  color:$izumrud!important;
+  font-size: 32px;
+  font-weight: 800;
+  font-family: 'Berkshire Swash', cursive;
+  &:hover{
+      color:$izumrud!important;
+    }
+}
+.active > a, .active > a:hover, .active > a:focus {
+    color: $white!important;
+    background: $dark!important;
+  }
+
+

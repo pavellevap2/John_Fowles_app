@@ -1,0 +1,22 @@
+@import "../shared/header";
+.sidebar-links{
+  border-bottom: 1px solid gray;
+  max-width:100%;
+  padding: 10px 0;
+
+  &:last-child{
+      border-bottom: none!important;
+    }
+
+  a{
+    color:#ffffff;
+    font-size: 26px;
+    font-weight: bold;
+    text-shadow: 2px 1px 1px $dark;
+    }
+  a:hover{
+    color:darkgray!important;
+    font-weight: bold;
+     }
+}
+
